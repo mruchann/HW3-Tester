@@ -312,8 +312,8 @@ def create_tar():
     process = subprocess.run(f"tar -czf {STUDENT_TAR_NAME} *", shell=True, capture_output=True)
     if (process.returncode != 0):
         os.remove(STUDENT_TAR_NAME)
-        print("Please put your files into Submission folder... You have one minute.")
-        time.sleep(60)
+        print("Please put your files into Submission folder... You have 30 seconds.")
+        time.sleep(30)
 
         process_retry = subprocess.run(f"tar -czf {STUDENT_TAR_NAME} *", shell=True, capture_output=True)
 
