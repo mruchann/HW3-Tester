@@ -1,0 +1,11 @@
+- 2:root/
+-- 11:lost+found/
+-- 12:folder1/
+--- (13:file1.txt)
+--- (13:file4.txt)
+-- 14:folder2/
+--- (13:file2.txt)
+--- (13:file5.txt)
+-- 15:folder3/
+--- (13:file3.txt)
+--- 13:file6.txt

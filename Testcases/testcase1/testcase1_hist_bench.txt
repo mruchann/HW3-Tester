@@ -1,0 +1,3 @@
+1749307827 mkdir [/lost+found] [2] [11]
+1749307871 mkdir [/test] [2] [65]
+1749307890 touch [/test/test.txt] [65] [66]
