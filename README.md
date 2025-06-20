@@ -7,7 +7,7 @@ An updated version of the assistant's tester.
 3.	When prompted, move the files into the `Submission` folder.
 4.	Give necessary permissions to `run.sh` and execute it.
 
-You are free to make changes to the code inside the `Submission` folder after the first run. The tester will automatically create a new tarball for the grader with each run. This allows you to see how your modifications impact your grade.
+You are free to make changes to the code inside the `Submission` folder after the first run. The tester will automatically create a new tarball from the `Submission` folder for the grader with each run. This allows you to see how your modifications impact your grade.
 
 ### Fairness
 
